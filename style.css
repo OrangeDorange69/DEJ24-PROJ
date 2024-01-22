@@ -26,6 +26,20 @@ footer {
     transition: transform 0.2s;
 }
 
+.video-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.video,
+.video2 {
+    width: calc(50% - 10px); 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
 .hymn-button:hover {
     background: linear-gradient(45deg, #ec8f6e, #ff4e00);
     transform: scale(1.05);
